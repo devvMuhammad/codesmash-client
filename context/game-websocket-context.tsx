@@ -10,7 +10,7 @@ import { useGameStore } from "@/providers/game-store-provider"
 import { toast } from "sonner"
 
 interface GameWebSocketContextType {
-  // functions for emitting websocket events
+  // Functions for emitting websocket events
   sendCodeUpdate: (code: string) => void
   sendRunCode: (code: string) => void
   sendSubmitCode: (code: string) => void
