@@ -48,7 +48,7 @@ export function CurrentPlayerEditor({ gameId }: CurrentPlayerEditorProps) {
     // Update store
     setCurrentPlayerCode(newCode)
 
-    // Throttled WebSocket update
+    // throttled WebSocket update
     throttledSendCode(newCode)
   }, [gameId, selectedLanguage, setCurrentPlayerCode, throttledSendCode])
 
