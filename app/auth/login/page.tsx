@@ -20,7 +20,7 @@ export default function LoginPage() {
         throw new Error(data.error.message || data.error.statusText);
       }
       console.log("Sign in initiated:", data)
-      // Redirect to lobby after successful sign in
+      // redirect to lobby after successful sign in
       // router.push("/lobby")
     },
     onError: (error) => {
