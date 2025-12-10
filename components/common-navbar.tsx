@@ -6,7 +6,7 @@ import { UserDropdown } from "@/components/user-dropdown"
 import { Button } from "@/components/ui/button"
 import { useSession } from "@/lib/auth-client"
 
-
+// common navbar component
 export function CommonNavbar() {
   const { data: session, isPending: isLoading } = useSession()
 
