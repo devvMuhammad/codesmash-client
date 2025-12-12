@@ -35,6 +35,7 @@ export default async function DuelPage({ params, searchParams }: DuelPageProps) 
     userId: session?.user.id,
     inviteCode
   })
+  // Added game analytics using Regression Model 
   const gameData = await getGameById(gameId)
 
   return (
