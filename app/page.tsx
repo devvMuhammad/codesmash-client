@@ -6,7 +6,7 @@ import type { Metadata } from "next"
 
 export const metadata: Metadata = {
   title: "Home",
-  description: "Challenge your friends in real-time coding duels. Compete, practice, and learn by solving problems together.",
+  description: "Challenge your friends in real-time coding duels. Compete, practice, and learn by solving problems together. The only real time free coding platform available.",
 }
 
 export default function HomePage() {
